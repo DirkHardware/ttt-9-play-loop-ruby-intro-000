@@ -1,7 +1,7 @@
 # Helper Methods
 def play(board)
   turns = 0
-  while turns < 10
+  9.times do
     turn(board)
     turns += 1
   end
