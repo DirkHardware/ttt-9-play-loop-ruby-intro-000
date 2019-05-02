@@ -4,6 +4,7 @@ def play(board)
   while turns < 10
     turn(board)
     turns += 1
+  end
 end
 
 def display_board(board)
