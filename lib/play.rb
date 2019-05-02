@@ -3,7 +3,6 @@ def play(board)
   turns = 0
   9.times do
     turn(board)
-    turns += 1
   end
 end
 
